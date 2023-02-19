@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$container-width: 1170px;
+$container-width-small-desktop: 1100px;
+$container-width-smallest-desktop: 860px;
+
+/* Fonts */
+$font-main: "Roboto", sans-serif;
+$font-titles: "Lato", sans-serif;
+$font-buttons-thirdary: "Poppins", sans-serif;
+
+/* Colors */
+$color-primary: #3d37f1;
+$color-secondary-orange: #ff992e;
+$color-dark-blue: #0a315a;
+
+$color-num-01: #3d37f1;
+$color-num-02: #9997df;
+$color-num-03: #ffba3f;
+$color-num-04: #e66e6e;
+$color-num-05: #66659f;
+$color-num-06: #f17637;
+$color-num-07: #37f1be;
+$color-num-08: #f137e5;
+$color-num-09: #f13d37;
+
+/* Transparent colors for pictures */
+
+/* --color-dark-blue-transparent: #131b7c;
+    --color-orange-transparent: #f36f21;
+    --color-light-blue-transparent: #a5a2f6; */
+
+/* Font-colors */
+$color-text-content: #747474;
+$color-text-title: #5a5454;
+$color-text-dark_grey: #534d4d;
+$color-text-light_gray: #ffffff3d;
+$color-text-not_selected: #969ca2;
+$color-text-dark_blue: #4b647e;
+$color-text-highlight: #8f8bff;
+
+/* Gradients */
+$gradient-1st_set-1: transparent
+  linear-gradient(180deg, #fbba77 0%, #dfa871 100%) 0% 0% no-repeat padding-box;
+$gradient-1st_set-2: transparent
+  linear-gradient(180deg, #41eae3 0%, #2293b7 100%) 0% 0% no-repeat padding-box;
+$gradient-1st_set-3: transparent
+  linear-gradient(180deg, #69529f 0%, #463864 100%) 0% 0% no-repeat padding-box;
+$gradient-1st_set-4: transparent
+  linear-gradient(180deg, #4386d2 0%, #0962c5 100%) 0% 0% no-repeat padding-box;
+$gradient-1st_set-5: transparent
+  linear-gradient(180deg, #a5a2f6 0%, #564fd6 100%) 0% 0% no-repeat padding-box;
+$gradient-1st_set-6: transparent
+  linear-gradient(180deg, #ff8088 0%, #984141 100%) 0% 0% no-repeat padding-box;
+
+/* --gradient-2nd_set-1: transparent
+      linear-gradient(143deg, #af94fd 0%, #6651f3 100%) 0% 0% no-repeat
+      padding-box;
+    --gradient-2nd_set-2: transparent
+      linear-gradient(143deg, #ff95a5 0%, #ff62a3 100%) 0% 0% no-repeat
+      padding-box;
+    --gradient-2nd_set-3: transparent
+      linear-gradient(143deg, #fbc9a4 0%, #ff884a 100%) 0% 0% no-repeat
+      padding-box; */
+
+$color-white: #ffffff;
