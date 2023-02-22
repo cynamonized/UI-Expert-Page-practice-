@@ -38,6 +38,7 @@ body {
   }
 
   @include tablet {
+    width: unset;
     width: 80%;
   }
 }
