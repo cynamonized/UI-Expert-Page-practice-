@@ -5,6 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UI Expert</title>
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
@@ -15,10 +16,12 @@
         <div class="header__logo">Web <span>UiExpert</span></div>
 
 
-        <!-- JUST ADDED THAT -->
-        <input class="header__checkbox" type="checkbox" id="menu-btn" />
-        <label class="header__icon" for="header__checkbox"><span class="navicon">
+        <!-- Hamburger objects -->
+        <input class="header__checkbox" type="checkbox" id="header__checkbox" />
+        <label class="header__icon" for="header__checkbox"><span class="header__navicon">
         </span></label>
+
+        <!--  -->
 
         <div class="header__right-menu">
           <ul class="right-menu__elements">
@@ -38,9 +41,10 @@
 
     <div class="container container__hero">
       <div class="hero__left-column">
+ 
         <h1>Provide You best Best Ui Service</h1>
         <h3>Mobile App Design and Development Studio. You can hire us</h3>
-        <button class="btn btn-primary btn-hero">Wave me</menu></button>
+        <button class="btn btn-primary btn-hero">Wave me</button>
       </div>
     </div>
 
@@ -81,9 +85,87 @@
             <button class="btn btn-single-block">Read more</button></div>
         </div>
       </div>
+    </section>
 
 
+    <section id="aboutme">
+      <div class="container container__about-me">
+          <div class="about-me__left-column">
+            <img src="./images/undraw_about_me_wa29.svg" class="left-column__image">
+          </div>
+        <div class="about-me__right-column">
+          <div class="right-column__titles">
+            <h5>Know About UiExpert</h5>
+            <p class="titles__description">
+              I always follow professional Workflow and provide you best service with resealable costs.
+            </p>
+          </div>
+
+          <div class="right-column__player">
+            <input class="player__btn" type="checkbox" id="player__btn" />
+            <label class="player__real__button" for="player__btn">
+            <div class="player__circle">
+              <div class="circle__triangle"></div>
+            </div>
+          </label>
+
+            <div class="player__timeline"></div>
+            <p class="player__description">See My video Brif</p>
+          </div>
+        </div>
+
+      </div>
 
     </section>
+
+    <section id="our-portfolio">
+      <div class="container container__our-portfolio">
+        <div class="our-portfolio__left-column">
+          <div class="left-column__title-section">
+              <h3>Our portfolio</h3>
+              <p class="title-section__subtitle">View our portfolio in catagories</p>
+          </div>
+          <ul class="left-column__menu-list">
+            <li class="menu-list__menu-element">All Works</li>
+            <li class="menu-list__menu-element">Minimal Design</li>
+            <li class="menu-list__menu-element">Colorful Design</li>
+            <li class="menu-list__menu-element">Landing Page Design</li>
+            <li class="menu-list__menu-element">Mobile Apps Design</li>
+          </ul>
+        </div> 
+
+
+
+        <div class="our-portfolio__right-column">
+          <div class="right-column__images">
+            <div class="images__image-box">
+              <img src="./images/portfolio/1.png" alt="" class="image-box__image">
+            </div>
+            <div class="images__image-box">
+              <img src="./images/portfolio/2.png" alt="" class="image-box__image">
+            </div>
+            <div class="images__image-box">
+              <img src="./images/portfolio/3.png" alt="" class="image-box__image">
+            </div>
+            <div class="images__image-box">
+              <img src="./images/portfolio/4.png" alt="" class="image-box__image">
+            </div>
+            <div class="images__image-box">
+              <img src="./images/portfolio/5.png" alt="" class="image-box__image">
+            </div>
+            <div class="images__image-box">
+              <img src="./images/portfolio/6.png" alt="" class="image-box__image">
+            </div>
+          </div>
+    
+          <div class="right-column__bottom-navi">
+            <div class="bottom-navi__box_1"></div>
+            <div class="bottom-navi__box_2"></div>
+            <div class="bottom-navi__box_3"></div>
+          </div>
+        </div>
+    </div>
+    </section>
+    
   </body>
 </html>

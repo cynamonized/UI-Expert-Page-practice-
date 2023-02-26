@@ -16,6 +16,7 @@ $font-buttons-thirdary: "Poppins", sans-serif;
 $color-primary: #3d37f1;
 $color-secondary-orange: #ff992e;
 $color-dark-blue: #0a315a;
+$colors-medium-grey: #686868;
 
 $color-num-01: #3d37f1;
 $color-num-02: #9997df;
@@ -42,19 +43,39 @@ $color-text-not_selected: #969ca2;
 $color-text-dark_blue: #4b647e;
 $color-text-highlight: #8f8bff;
 
+// Maps + lists
+
+$gradients_map: (
+  "1": transparent linear-gradient(180deg, #fbba77 0%, #dfa871 100%) 0% 0%
+    no-repeat padding-box,
+  "2": transparent linear-gradient(180deg, #41eae3 0%, #2293b7 100%) 0% 0%
+    no-repeat padding-box,
+  "3": transparent linear-gradient(180deg, #69529f 0%, #463864 100%) 0% 0%
+    no-repeat padding-box,
+  "4": transparent linear-gradient(180deg, #4386d2 0%, #0962c5 100%) 0% 0%
+    no-repeat padding-box,
+  "5": transparent linear-gradient(180deg, #a5a2f6 0%, #564fd6 100%) 0% 0%
+    no-repeat padding-box,
+  "6": transparent linear-gradient(180deg, #ff8088 0%, #984141 100%) 0% 0%
+    no-repeat padding-box,
+);
+
+$colors_list: $color-secondary-orange, #2293b7, #463864, #0962c5, #564fd6,
+  #984141;
+
 /* Gradients */
-$gradient-1st_set-1: transparent
-  linear-gradient(180deg, #fbba77 0%, #dfa871 100%) 0% 0% no-repeat padding-box;
-$gradient-1st_set-2: transparent
-  linear-gradient(180deg, #41eae3 0%, #2293b7 100%) 0% 0% no-repeat padding-box;
-$gradient-1st_set-3: transparent
-  linear-gradient(180deg, #69529f 0%, #463864 100%) 0% 0% no-repeat padding-box;
-$gradient-1st_set-4: transparent
-  linear-gradient(180deg, #4386d2 0%, #0962c5 100%) 0% 0% no-repeat padding-box;
-$gradient-1st_set-5: transparent
-  linear-gradient(180deg, #a5a2f6 0%, #564fd6 100%) 0% 0% no-repeat padding-box;
-$gradient-1st_set-6: transparent
-  linear-gradient(180deg, #ff8088 0%, #984141 100%) 0% 0% no-repeat padding-box;
+// $gradient-1st_set-1: transparent
+//   linear-gradient(180deg, #fbba77 0%, #dfa871 100%) 0% 0% no-repeat padding-box;
+// $gradient-1st_set-2: transparent
+//   linear-gradient(180deg, #41eae3 0%, #2293b7 100%) 0% 0% no-repeat padding-box;
+// $gradient-1st_set-3: transparent
+//   linear-gradient(180deg, #69529f 0%, #463864 100%) 0% 0% no-repeat padding-box;
+// $gradient-1st_set-4: transparent
+//   linear-gradient(180deg, #4386d2 0%, #0962c5 100%) 0% 0% no-repeat padding-box;
+// $gradient-1st_set-5: transparent
+//   linear-gradient(180deg, #a5a2f6 0%, #564fd6 100%) 0% 0% no-repeat padding-box;
+// $gradient-1st_set-6: transparent
+//   linear-gradient(180deg, #ff8088 0%, #984141 100%) 0% 0% no-repeat padding-box;
 
 /* --gradient-2nd_set-1: transparent
       linear-gradient(143deg, #af94fd 0%, #6651f3 100%) 0% 0% no-repeat

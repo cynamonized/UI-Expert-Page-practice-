@@ -39,6 +39,7 @@ body {
 
   @include tablet {
     width: unset;
+    max-width: unset;
     width: 80%;
   }
 }
@@ -47,3 +48,5 @@ body {
 @import "/scss/sections/_hero";
 @import "/scss/sections/_services";
 @import "/scss/sections/_footer";
+@import "/scss/sections/_aboutme";
+@import "/scss/sections/_ourportfolio";

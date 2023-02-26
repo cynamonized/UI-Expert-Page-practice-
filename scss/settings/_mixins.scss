@@ -22,3 +22,44 @@
     @content;
   }
 }
+
+//Mixins display: flex
+
+@mixin display_center_x_y {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin display_center_x {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin display_center_y {
+  display: flex;
+  align-items: center;
+}
+
+@mixin diplay_column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Navi portfolio
+
+@mixin unchecked_dot {
+  height: 13px;
+  width: 13px;
+  opacity: 0.3;
+  border-radius: 50%;
+  background-color: $color-primary;
+}
+
+@mixin checked_dot {
+  height: 13px;
+  width: 62px;
+  opacity: 1;
+  background-color: $color-primary;
+  border-radius: 7px;
+}
